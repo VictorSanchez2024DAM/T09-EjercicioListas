@@ -32,9 +32,10 @@ class Datasource() {
         R.drawable.image9,
         R.drawable.image10
     )
+    //crea una lista de frases
     fun loadFrases(): List<Frase> {
         val lista=mutableListOf<Frase>()
-        (0..25).forEach{
+        (0..2500).forEach{
             lista.add(Frase(frases.random(),imagenes.random()))
         }
         return lista
