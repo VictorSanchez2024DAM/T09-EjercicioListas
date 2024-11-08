@@ -27,7 +27,7 @@ fun ListaScreen(
     val uiState by viewModel.stateUi.collectAsState()
 
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-       /* LazyColumn(modifier =
+        LazyColumn(modifier =
         Modifier
             .fillMaxSize()
             .padding(innerPadding),
@@ -40,7 +40,7 @@ fun ListaScreen(
                     item
                 )
             }
-        }*/
+        }
 
         //Version sin Lazy
         /* val scrollState = rememberScrollState()
